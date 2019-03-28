@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/agent.hpp
+vector
+-
+fstream
+-
+environment.hpp
+-
+
+../include/environment.hpp
+string
+-
+vector
+-
+
+/home/jonjoy/AI/assignment_09/src/agent.cpp
+iostream
+-
+cmath
+-
+cstdlib
+-
+algorithm
+-
+agent.hpp
+-
+utility
+-
+math.h
+-
+boost/function.hpp
+-
+boost/bind.hpp
+-
+functional
+-
+

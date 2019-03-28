@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/GameBoard.hpp
+vector
+-
+iostream
+-
+
+../include/Players.hpp
+GameBoard.hpp
+-
+
+/home/jonjoy/AI/assignment_10/src/Players.cpp
+Players.hpp
+-
+climits
+-
+algorithm
+-
+string
+-
+iostream
+-
+ctime
+-
+unistd.h
+-
+cstdlib
+-
+

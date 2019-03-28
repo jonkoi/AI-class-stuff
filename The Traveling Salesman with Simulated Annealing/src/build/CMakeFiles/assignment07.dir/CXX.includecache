@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/agent.hpp
+vector
+-
+world.hpp
+../include/world.hpp
+
+../include/world.hpp
+string
+-
+vector
+-
+
+/home/jonjoy/AI/assignment_07/src/main.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+agent.hpp
+-
+world.hpp
+-
+
